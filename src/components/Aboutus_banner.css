@@ -1,0 +1,21 @@
+.about_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height: 223px;
+    background-image: url("../../public/Aboutus_banner.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    margin:auto;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: white; 
+
+};
+
+
+

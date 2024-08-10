@@ -1,0 +1,38 @@
+
+.grid_items {
+    display: flex;
+    background-color: red;
+    text-align: left;
+    align-items: flex-end;
+    width: 340px;
+    height: 360px;
+    position: relative
+
+};
+
+.card_cover {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+   
+    
+};
+
+P{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.card_title {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+}
+
+.link {
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
+

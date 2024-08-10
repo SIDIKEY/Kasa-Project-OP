@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.body{
+    font-family: "Montserrat", sans-serif;
+}
+.nav_bar {
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 5rem;
+
+}
+.navigation_links {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    
+font-size: 24px;
+font-weight: 500;
+line-height: 34.22px;
+text-align: right;
+white-space: nowrap;
+min-width: 208px;
+
+}
+
+p {
+    min-width: fit-content;
+}

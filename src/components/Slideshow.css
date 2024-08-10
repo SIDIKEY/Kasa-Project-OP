@@ -1,0 +1,33 @@
+.arrow_left {
+    font-size: 8rem;
+    position: absolute;
+    left: 0;
+    top: 42%;
+    color: white;
+    
+}
+.arrow_right {
+    font-size: 8rem;
+    position: absolute;
+    right: 0;
+    top: 42%;
+    color: white;
+
+}
+
+.lodging_cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.slideshow_wrapper {
+    margin: 5em;
+    position: relative;
+    height: 415px;
+    border-radius: 20px;
+    
+
+}
+
