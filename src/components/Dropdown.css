@@ -1,0 +1,114 @@
+
+
+@media only screen and (min-width: 500px) {
+    .dropdowns_wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .dropdown_sizing {
+        width: 47%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        width: 75%;
+        margin-bottom: 60px;
+    }
+    
+    .dropdown_header {
+        display: flex;
+        background-color: #FF6060;
+        color: white;
+        border-radius: 10px;
+        justify-content: space-between;
+        height: 32px;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 10px;
+        font-size: 13px;
+    }
+
+    .activeDrop {
+        rotate: 180deg;
+       
+       
+    }
+    
+    .dropdown_content {
+        list-style: none;
+        padding-left: 15px;
+        color:#FF6060 ;
+    }
+    .equipement_list {
+        padding-left: 10px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 499px)  {
+    .dropdowns_wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-inline: 0em;
+        gap: 34px;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .dropdown_sizing {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        margin-bottom: 150px;
+        width: 94%;
+        margin-bottom: 20px;
+    }
+    
+    .dropdown_header {
+        display: flex;
+        background-color: #FF6060;
+        color: white;
+        max-width: 800px;
+        border-radius: 10px;
+        justify-content: space-between;
+        height: 32px;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 10px;
+        font-size: 13px;
+    }
+
+    .activeDrop {
+        rotate: 180deg;
+       
+       
+    }
+    
+    .dropdown_content {
+        list-style: none;
+        color: #FF6060;
+        padding-left: 15px;
+    }
+   
+
+}

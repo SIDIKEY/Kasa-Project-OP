@@ -1,18 +1,301 @@
-.info_wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-inline: 5em;
+
+
+
+
+
+@media only screen and (min-width: 500px) {
+
+    .rating {
+        display: flex;
+        align-items: center;
+    }
+    
+    .star_rating {
+        width: 36px;
+        height: 36px;
+        
+    }
+    
+    .filled {
+        filter: invert(65%) sepia(37%) saturate(5004%) hue-rotate(321deg) brightness(100%) contrast(101%);
+    }
+    
+    .info_wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-inline: 2em;
+    
+    }
+    
+    .host_info {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+    
+    }
+    .host_pic {
+        border-radius: 50%;
+    }
+    
+    h1 {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 51.34px;
+        text-align: left;
+        color: #FF6060;
+    }
+    
+    h2 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.67px;
+        text-align: left;
+       
+    
+    }
+    
+    .arrow_left {
+        font-size: 8rem;
+        position: absolute;
+        left: 0;
+        top: 42%;
+        color: white;
+        
+    }
+    .arrow_right {
+        font-size: 8rem;
+        position: absolute;
+        right: 0;
+        top: 42%;
+        color: white;
+    
+    }
+    
+    .slideshow_wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        position: absolute;
+        opacity: 0;
+    
+    }
+    
+    .current {
+        opacity: 1 !important;
+    }
+    .slideshow_wrapper {
+        margin: 2em;
+        position: relative;
+        height: 415px;
+        border-radius: 20px;
+        position: relative;
+        
+    }
+    
+    
+    
+    .host_name {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.67px;
+        text-align: right;
+        color: #FF6060;
+    }
+    
+    .lodging_tags {
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    
+    .lodging_tag {
+        display: flex;
+        background-color: red;
+       
+        text-align: center;
+        border-radius: 28px;
+        white-space: nowrap;
+        font-size: 14px;
+        width: 150px;
+        height: 25px;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .tags_rating_wrapper {
+        margin-inline: 5em;
+        display: flex;
+        justify-content: space-between;
+        margin-inline: 2em;
+        margin-top: 15px;
+    
+    }
+
 
 }
 
-.host_info {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
-    gap: 10px;
+@media only screen and (max-width: 499px) {
 
-}
-.host_pic {
-    border-radius: 50%;
+    .rating {
+        display: flex;
+        align-items: center;
+        margin-left: 1em;
+    }
+
+    .star_rating {
+        width: 36px;
+        height: 36px;
+        
+    }
+    
+    .filled {
+
+        width: 18px;
+        height: 18px;
+        margin-top: 20px;
+        filter: invert(65%) sepia(37%) saturate(5004%) hue-rotate(321deg) brightness(100%) contrast(101%);
+    }
+
+    .empty {
+        width: 18px;
+        height: 18px;
+        margin-top: 20px;
+
+
+        
+    }
+
+    
+
+
+    .slideshow_wrapper {
+        margin: 1em;
+        position: relative;
+        height: 415px;
+        border-radius: 20px;
+        position: relative;
+        
+    }
+
+    .lodging_info {
+        padding-inline: 1em;
+    }
+    .host_info {
+        right: 1em;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-end;
+        position: absolute;
+        top: 620px;
+    }
+    .host_pic {
+        border-radius: 50%;
+        width: 32px;
+    }
+    
+    h1 {
+        color: #FF6060;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.67px;
+        text-align: left;
+        
+    }
+    
+    h2 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 25.67px;
+        text-align: left;
+    }
+    
+    .arrow_left {
+        font-size: 3rem;
+        position: absolute;
+        left: 0;
+        top: 42%;
+        color: white;
+        margin-left: 3%;
+        
+    }
+    .arrow_right {
+        font-size: 3rem;
+        position: absolute;
+        right: 0;
+        top: 42%;
+        color: white;
+        margin-right: 3%;
+    
+    }
+    
+    .slideshow_wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        position: absolute;
+        opacity: 0;
+    
+    }
+    
+    .current {
+        opacity: 1 !important;
+    }
+    .slideshow_wrapper {
+           height: 415px;
+    border-radius: 20px;
+    position: relative;
+        
+    }
+    
+    
+    
+    .host_name {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.67px;
+        text-align: right;
+        color: #FF6060;
+    }
+    
+    .lodging_tags {
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        padding-inline: 0em;
+        flex-wrap: wrap;
+        margin-inline: 1em;
+    }
+    
+    .lodging_tag {
+        display: flex;
+        background-color: #FF6060;
+        color: white;
+        padding: 8px 12px;
+        text-align: center;
+        align-items: center;
+        border-radius: 28px;
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    
+    .tags_rating_wrapper {
+        margin-inline: 5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-inline: 0em;
+        margin-top: 15px;
+        position: relative;
+    }
+
+    
+    
 }

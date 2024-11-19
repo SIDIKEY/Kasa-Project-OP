@@ -1,6 +1,7 @@
 
 import React, { useRef, useState } from 'react';
-import { RiArrowDropDownLine } from 'react-icons/ri';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faChevronDown} from '@fortawesome/free-solid-svg-icons'
 import data from '../pages/Aboutus/AccordeonData';
 import "./Accordeon.css";
 
@@ -11,7 +12,7 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => {
        <div className="wrapper" >
        <button className={`question-container ${isOpen ? 'active' : ''}`} onClick={onClick} >
         <p className='question-content'>{title}</p>
-        <RiArrowDropDownLine className={`arrow ${isOpen ? 'active' : ''}`} /> 
+        <FontAwesomeIcon icon={faChevronDown} className={`arrow ${isOpen ? 'active' : ''}`} /> 
        </button>
    
         <div ref={contentHeight} className="answer-container" style={

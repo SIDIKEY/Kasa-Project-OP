@@ -26,17 +26,22 @@ function Accomodationgrid(){
 
     return     (
         <>
+
+            <div className="grid_sizing">
             <div  className="grid">
             
-       {
-            
-              data.map((dataItem) => (
+            {
+                 
+                   data.map((dataItem) => (
+     
+                     <DisplayCards  id={dataItem.id}  key = {dataItem.id} cover={dataItem.cover} title={dataItem.title}/>
+         
+                   ))
+             }  
+                 </div> 
 
-                <DisplayCards  id={dataItem.id}  key = {dataItem.id} cover={dataItem.cover} title={dataItem.title}/>
-    
-              ))
-        }  
-            </div> 
+            </div>
+            
         </>
       )}; 
 export default Accomodationgrid

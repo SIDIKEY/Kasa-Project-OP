@@ -12,6 +12,10 @@ function Accomodationselected(){
                    <Nav />
                    
                 <AccomodationComponent lodgingId={location.state.lodgingId}/>
+
+               
+
+                
                 </div>
         
 }

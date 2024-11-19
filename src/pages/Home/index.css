@@ -5,3 +5,26 @@ body{
     
     
 }
+
+#root {
+    background-color: white;
+    margin: auto;
+}
+
+@media only screen and (max-width: 499px) {
+    #root {
+        background-color: white;
+
+        width: 100vw;
+    }
+
+    img {
+       
+        width:100%;
+        border-radius: 15px;
+        object-fit: cover;
+        
+    }
+    
+
+}

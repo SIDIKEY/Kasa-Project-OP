@@ -1,6 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom";
-import "./nav.css"
+import "./nav.scss"
 import LOGO from "../images/LOGO.png" 
 
 function Nav() {
@@ -10,11 +10,11 @@ function Nav() {
               
              </div>
              <div className="navigation_links">
-             <NavLink to="/">
-             <p>Accueil</p>
+             <NavLink to="/" className="nav_link">
+             <p>Accueil</p >
   
              </NavLink>
-             <NavLink to="/aboutus">
+             <NavLink to="/aboutus" className="nav_link">
              <p>A propos</p>
 
              </NavLink>

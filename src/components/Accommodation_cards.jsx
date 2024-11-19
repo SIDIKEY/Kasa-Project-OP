@@ -21,7 +21,7 @@ import "./Accomodation_cards.css"
     <div className="grid_items">
       
 
-    <Link to={value}  state={{lodgingId: `${id}`}} className="link">
+    <Link to={value}  state={{lodgingId: `${id}`}} className="linkDiv">
       <img src={cover} className="card_cover" alt="accomodation cover" width="340" height="360" />
       <p className="card_title"> {title} </p>
     </Link>
